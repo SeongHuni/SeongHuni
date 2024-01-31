@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @SeongHuni
-- 👀 I’m interested in playing drum
-- 🌱 I’m currently learning java
+- 👀 I’m interested in playing drum & LoL & in steam game
+- 🌱 I’m currently learning java & python
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
