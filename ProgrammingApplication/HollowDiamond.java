@@ -49,6 +49,7 @@ public class HollowDiamond {
                     //반복문 종료후 * 출력
 
                     for(int j = 1; j < (i-1)*2; j++){
+                    //마지막 행에선 공백이 인쇄되지 않음.
                         System.out.print(" ");
                     }
 
