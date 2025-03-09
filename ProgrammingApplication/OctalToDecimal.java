@@ -28,7 +28,7 @@ public class OctalToDecimal {
                     double temp2 = Math.pow(8,i);
                     //8의 i승을 곱함
 
-                    output += temp * temp2;
+                    output += (int) (temp * temp2);
                     //inputValue의 나머지와 temp2의 값을 더함.
 
                     inputValue /= 10;
