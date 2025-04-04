@@ -1,19 +1,18 @@
-package polynomal;
+package Polynomial;
 
 import java.util.Scanner;
 
 public class Main {
-    private static final Scanner sc = new Scanner(System.in);
-    private static final Polynomial polynomial = new Polynomial(poly1,poly2);
-    private String poly1,poly2;
+  private static final Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
-
-        System.out.println("다항식을 계수-지수 쌍으로 입력하세요.(지수가 0으로 입력되면 종료");;
-        poly1 = sc.nextLine();
-        System.out.println("다항식을 계수-지수 쌍으로 입력하세요.(지수가 0으로 입력되면 종료");
-        poly2 = sc.nextLine();
-        System.out.println("두 다항식의 곱은 :" + result);
-    }
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    Polynomial poly1 = new Polynomial();
+    Polynomial poly2 = new Polynomial();
+    poly1.read(sc);
+    poly2.read(sc);
+    Polynomial result = poly1.multiply(poly2);
+    System.out.println(result);
+  }
 
 }
